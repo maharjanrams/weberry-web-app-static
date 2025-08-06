@@ -20,7 +20,6 @@ export default defineNuxtConfig({
     ],
     ssr: true,
     nitro: {
-    preset: 'cloudflare_pages', // This preset is optimized for Cloudflare Pages
     prerender: {
       // If you have dynamic routes that you want to pre-render, list them here.
       // Otherwise, Nuxt will pre-render all static routes by default when running `nuxi generate`.
