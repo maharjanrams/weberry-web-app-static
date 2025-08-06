@@ -19,12 +19,4 @@ export default defineNuxtConfig({
         '@nuxt/test-utils'
     ],
     ssr: true,
-    nitro: {
-    prerender: {
-      // If you have dynamic routes that you want to pre-render, list them here.
-      // Otherwise, Nuxt will pre-render all static routes by default when running `nuxi generate`.
-      // routes: ['/my-static-page', '/blog/post-1'],
-      autoSubfolderIndex: false, // Recommended for Cloudflare Pages route matching
-    },
-  },
 })
