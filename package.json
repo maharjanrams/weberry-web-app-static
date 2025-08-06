@@ -1,5 +1,9 @@
 {
   "name": "nuxt-app",
+  "engines": {
+    "node": "18.x",
+    "yarn": "1.22.22"
+  },
   "private": true,
   "type": "module",
   "scripts": {
