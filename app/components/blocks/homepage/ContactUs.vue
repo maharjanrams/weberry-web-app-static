@@ -11,7 +11,8 @@
                 </h2>
                 <div class="space-y-1 mb-8">
                     <p class="text-lg font-semibold">PHONE</p>
-                    <p class="text-2xl font-bold">044 900 6591</p>
+                    <p class="text-2xl font-bold">Head of Sales</p>
+                    <p class="text-2xl font-bold">0402 014 533 @ Loojaw</p>
                 </div>
                 <div class="space-y-1 mb-8">
                     <p class="text-lg font-semibold mt-6">EMAIL</p>

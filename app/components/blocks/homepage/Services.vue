@@ -24,7 +24,7 @@
                         <!-- Icon for Web Design - Replaced with nuxt-icon -->
                         <Icon name="heroicons:computer-desktop" class="w-16 h-16 text-purple-berry" />
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">STRATEGIC WEB DESIGN</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 uppercase">Web Design & Development</h3>
                     <p class="text-gray-600 mb-6 leading-relaxed">
                         We craft intuitive, high-performing websites designed to deliver measurable results. Each site
                         is custom-built to align perfectly with your unique business objectives and help you reach your
@@ -46,7 +46,7 @@
                         <!-- Icon for Web Management - Replaced with nuxt-icon -->
                         <Icon name="heroicons:cog-8-tooth" class="w-16 h-16 text-purple-berry" />
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">COMPREHENSIVE WEB MANAGEMENT</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 uppercase">Website Maintenance & Growth</h3>
                     <p class="text-gray-600 mb-6 leading-relaxed">
                         Ensure your website runs smoothly with our comprehensive management services, including routine
                         software updates, vigilant security monitoring, and fresh content integration. We handle the
@@ -68,7 +68,7 @@
                         <!-- Icon for Digital Marketing - Replaced with nuxt-icon -->
                         <Icon name="heroicons:chart-bar" class="w-16 h-16 text-purple-berry" />
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">PERFORMANCE DIGITAL MARKETING</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 uppercase">Results-Driven Digital Marketing</h3>
                     <p class="text-gray-600 mb-6 leading-relaxed">
                         Leverage our expertise in crafting captivating digital content across diverse industries,
                         designed to captivate your audience and inspire meaningful action.

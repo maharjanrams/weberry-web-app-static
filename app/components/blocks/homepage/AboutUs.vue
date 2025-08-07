@@ -2,8 +2,8 @@
 	<section class="w-full flex justify-center p-8 md:p-16">
 		<div class="max-w-7xl flex flex-col md:flex-row items-center md:items-start gap-8">
 			<div class="w-full md:w-1/2 max-w-3xl mx-auto md:mx-0">
-				<h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-berry mb-6 sm:mb-8">
-					OUR PASSION AND PURPOSE
+				<h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-berry uppercase mb-6 sm:mb-8">
+					What inspires and motivates us
 				</h1>
 				<p class="text-lg text-gray-700 mb-4 leading-relaxed">
 					Since day one, our goal has been to deliver <i>outstanding web design solutions</i> at a fair
@@ -21,7 +21,7 @@
 				</p>
 				<button
 					class="mt-8 px-6 py-5 bg-gray-700 text-white font-semibold rounded-full hover:bg-berry hover:text-white transition-colors duration-300 flex items-center gap-2">
-					<span>Boost My Online Presence</span>
+					<span>Get a free Quote</span>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 						<path fill-rule="evenodd"
 							d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
