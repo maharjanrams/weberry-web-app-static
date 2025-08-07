@@ -6,7 +6,7 @@
         <!-- Main Content -->
         <div class="group max-w-4xl w-full text-center bg-white/20 rounded-xl p-8 shadow-lg transition-all duration-500 ease-in-out hover:bg-white/35">
             <!-- Main Heading -->
-            <h1 class="text-5xl uppercase sm:text-5xl lg:text-8xl font-bold text-white mb-4 transition-colors duration-500 ease-in-out group-hover:text-gray-800">
+            <h1 class="text-5xl uppercase sm:text-5xl lg:text-8xl font-bold text-white mt-5 mb-4 transition-colors duration-500 ease-in-out group-hover:text-gray-800">
                 Crafting Web Solutions
             </h1>
 
