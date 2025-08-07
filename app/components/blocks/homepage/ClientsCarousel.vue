@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16 bg-white">
+    <section id="clients" class="py-16 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-berry mb-0 text-center tracking-tight">
                 OUR RECENT CLIENTS

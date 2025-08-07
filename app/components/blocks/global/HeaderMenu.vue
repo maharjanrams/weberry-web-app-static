@@ -50,46 +50,46 @@ const currentTrigger = ref('')
                         >
                             <ul class="m-0 grid list-none gap-x-[10px] p-[22px] sm:w-[600px] sm:grid-flow-col sm:grid-rows-3">
                                 <NavigationMenuListItem
-                                    title="Introduction"
-                                    href="/docs/primitives/overview/introduction"
-                                    class="hover:bg-dark-hover-bg text-white"
+                                    title="Web Design"
+                                    href="/services/web-design"
+                                    class="hover:bg-dark-hover-bg hover:rounded-xl text-white"
                                 >
-                                    Build high-quality, accessible design systems and web apps.
+                                    Design & build user-friendly, accessible websites & strong design systems.
                                 </NavigationMenuListItem>
                                 <NavigationMenuListItem
-                                    title="Getting started"
-                                    href="/docs/primitives/overview/getting-started"
-                                    class="hover:bg-dark-hover-bg text-white"
+                                    title="Web Development"
+                                    href="/services/web-development"
+                                    class="hover:bg-dark-hover-bg hover:rounded-xl text-white"
                                 >
-                                    A quick tutorial to get you up and running with Reka UI.
+                                    Craft high-quality, accessible websites and robust, scalable web applications.
                                 </NavigationMenuListItem>
                                 <NavigationMenuListItem
-                                    title="Styling"
-                                    href="/docs/primitives/guides/styling"
-                                    class="hover:bg-dark-hover-bg text-white"
+                                    title="Web Management"
+                                    href="/web-management"
+                                    class="hover:bg-dark-hover-bg hover:rounded-xl text-white"
                                 >
-                                    Unstyled and compatible with any styling solution.
+                                    Maintain and enhance your website with our expert management services.
                                 </NavigationMenuListItem>
                                 <NavigationMenuListItem
-                                    title="Animation"
-                                    href="/docs/primitives/guides/animation"
-                                    class="hover:bg-dark-hover-bg text-white"
+                                    title="Ecommerce"
+                                    href="/ecommerce"
+                                    class="hover:bg-dark-hover-bg hover:rounded-xl text-white"
                                 >
-                                    Use CSS keyframes or any animation library of your choice.
+                                    Build and manage your online store with our comprehensive ecommerce solutions.
                                 </NavigationMenuListItem>
                                 <NavigationMenuListItem
-                                    title="Accessibility"
-                                    href="/docs/primitives/overview/accessibility"
-                                    class="hover:bg-dark-hover-bg text-white"
+                                    title="Search Engine Optimisation"
+                                    href="/services/seo"
+                                    class="hover:bg-dark-hover-bg hover:rounded-xl text-white"
                                 >
-                                    Tested in a range of browsers and assistive technologies.
+                                    Improve your website's visibility and ranking on search engines with our SEO services.
                                 </NavigationMenuListItem>
                                 <NavigationMenuListItem
-                                    title="Releases"
-                                    href="/docs/primitives/overview/releases"
-                                    class="hover:bg-dark-hover-bg text-white"
+                                    title="Digital Marketing"
+                                    href="/services/digital-marketing"
+                                    class="hover:bg-dark-hover-bg hover:rounded-xl text-white"
                                 >
-                                    Reka UI releases and their changelogs.
+                                    Enhance your online presence and reach your target audience with our digital marketing strategies.
                                 </NavigationMenuListItem>
                             </ul>
                         </NavigationMenuContent>
@@ -98,7 +98,7 @@ const currentTrigger = ref('')
                     <NavigationMenuItem>
                         <NavigationMenuLink
                             class="text-white hover:bg-purple-berry/20 focus:shadow-none block select-none rounded-[4px] px-3 py-2 text-sm font-medium leading-none no-underline outline-none focus:shadow-[0_0_0_2px]"
-                            href="https://github.com/unovue/reka-ui"
+                            href="/about"
                             target="_blank"
                         >
                             About Us
@@ -107,7 +107,7 @@ const currentTrigger = ref('')
 
                     <!-- Regular Nuxt Links for Services, Projects, Articles, etc. -->
                     <!-- These are outside the Reka UI NavigationMenu.List but still part of the header's main flex container -->
-                    <NuxtLink to="/projects" class="text-white hover:text-purple-berry transition-colors duration-200 px-3 py-2 text-sm font-medium leading-none no-underline outline-none select-none rounded-[4px]">Projects</NuxtLink>
+                    <NuxtLink to="#clients" class="text-white hover:text-purple-berry transition-colors duration-200 px-3 py-2 text-sm font-medium leading-none no-underline outline-none select-none rounded-[4px]">Projects</NuxtLink>
                     <!-- Learn Dropdown -->
                     <NavigationMenuItem>
                         <NavigationMenuTrigger
@@ -143,21 +143,21 @@ const currentTrigger = ref('')
                                 <NavigationMenuListItem
                                     href="https://stitches.dev/"
                                     title="South West Sydney"
-                                    class="hover:bg-dark-hover-bg text-white"
+                                    class="hover:bg-dark-hover-bg hover:rounded-xl text-white"
                                 >
                                     Seedling St, Austral, 2179, NSW, Australia
                                 </NavigationMenuListItem>
                                 <NavigationMenuListItem
                                     href="/colors"
                                     title="Inner Western Sydney"
-                                    class="hover:bg-dark-hover-bg text-white"
+                                    class="hover:bg-dark-hover-bg hover:rounded-xl text-white"
                                 >
                                     Delit Pl, Doonside, 2767, NSW, Australia
                                 </NavigationMenuListItem>
                                 <NavigationMenuListItem
                                     href="https://lucide.dev/icons/"
                                     title="North West Sydney"
-                                    class="hover:bg-dark-hover-bg text-white"
+                                    class="hover:bg-dark-hover-bg hover:rounded-xl text-white"
                                 >
                                     Oban St, Schofields, 2762, NSW, Australia
                                 </NavigationMenuListItem>
