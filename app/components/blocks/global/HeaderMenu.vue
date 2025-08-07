@@ -129,37 +129,37 @@ const currentTrigger = ref('')
                                             class="bg-gradient-to-br from-purple-9 to-indigo-9 flex h-full w-full select-none flex-col justify-end rounded-lg p-[25px] no-underline outline-none focus:shadow-[0_0_0_2px] focus:shadow-purple-berry"
                                             href="/public"
                                         >
-                                            <img
-                                                class="w-16"
-                                                src="https://reka-ui.com/logo.svg"
-                                                alt="Reka UI Logo"
-                                            >
-                                            <div class="mt-4 mb-[7px] text-[18px] font-medium leading-[1.2] text-white">Reka UI</div>
-                                            <p class="text-mauve-4 text-[14px] leading-[1.3]">Unstyled, accessible components for Vue.</p>
+                                            <NuxtImg
+                                                class="w-50 h-50 object-cover shadow-lg"
+                                                src="/maps.png"
+                                                alt="weBerry Maps"
+                                            />
+                                            <div class="mt-4 mb-[7px] text-[18px] font-medium leading-[1.2] text-white">Our offices</div>
+                                            <p class="text-mauve-4 text-[14px] leading-[1.3]">We are based on Western Sydney.</p>
                                         </a>
                                     </NavigationMenuLink>
                                 </li>
 
                                 <NavigationMenuListItem
                                     href="https://stitches.dev/"
-                                    title="Stitches"
+                                    title="South West Sydney"
                                     class="hover:bg-dark-hover-bg text-white"
                                 >
-                                    CSS-in-JS with best-in-class developer experience.
+                                    Seedling St, Austral, 2179, NSW, Australia
                                 </NavigationMenuListItem>
                                 <NavigationMenuListItem
                                     href="/colors"
-                                    title="Colors"
+                                    title="Inner Western Sydney"
                                     class="hover:bg-dark-hover-bg text-white"
                                 >
-                                    Beautiful, thought-out palettes with auto dark mode.
+                                    Delit Pl, Doonside, 2767, NSW, Australia
                                 </NavigationMenuListItem>
                                 <NavigationMenuListItem
                                     href="https://lucide.dev/icons/"
-                                    title="Icons"
+                                    title="North West Sydney"
                                     class="hover:bg-dark-hover-bg text-white"
                                 >
-                                    A crisp set of 15x15 icons, balanced and consistent.
+                                    Oban St, Schofields, 2762, NSW, Australia
                                 </NavigationMenuListItem>
                             </ul>
                         </NavigationMenuContent>
