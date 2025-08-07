@@ -1,24 +1,22 @@
 <template>
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-purple-berry mb-12 text-center tracking-tight">
-                OUR RECENT CLIENTS
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-berry mb-0 text-center tracking-tight">
+                WHAT OUR CLIENTS SAY
             </h2>
-            <p class="max-w-3xl mx-auto text-gray-600 text-lg text-center leading-relaxed">
-                Our mission is to help your business thrive. With our Sydney-based team of skilled web designers and content creators, we'll help you attract new leads, engage wider audiences, and boost customer loyalty. Discover why our clients choose us time and time again!
-            </p>
-            <div class="relative overflow-hidden py-8">
+            <div class="relative overflow-hidden py-0">
                 <Carousel
-                    :items-to-show="5"
+                    :items-to-show="1"
                     :wrap-around="true"
-                    :autoplay="2000"
+                    :autoplay="10000"
                     :transition="500"
                     class="clients-carousel"
                 >
                     <Slide v-for="(client, index) in clients" :key="index">
-                        <div class="carousel__item flex flex-col justify-center items-center p-4">
-                            <img :src="client.logo" :alt="client.name" class="w-auto px-4" />
-                            <!-- <span class="mt-4 text-lg font-bold text-gray-700">{{ client.name }}</span> -->
+                        <div class="carousel__item flex flex-col justify-center items-center p-4 max-w-px-[50px] mb-10">
+                            <img :src="client.logo" :alt="client.name" class="h-[150px] w-[150px] object-contain px-4 m-0 rounded-full shadow-md" />
+                            <h3 class="text-center mt-4 text-4xl font-bold text-gray-700 my-3">{{ client.name }}</h3>
+                            <p class="text-center">Our mission is to help your business thrive. With our Sydney-based team of skilled web designers and content creators,<br>we'll help you attract new leads, engage wider audiences, and boost customer loyalty.<br>Discover why our clients choose us time and time again!</p>
                         </div>
                     </Slide>
 
@@ -47,7 +45,8 @@
     const clients = ref<Client[]>([
         { name: 'SewaCare', logo: '/sewa-care.png' },
         { name: 'OzProCleaning', logo: '/oz-professional.png' },
-        { name: 'BagsOfJoy', logo: '/bags-of-joy.png' }
+        { name: 'BagsOfJoy', logo: '/bags-of-joy.png' },
+        { name: 'HappyHeartSydney', logo: '/bags-of-joy.png' }
 
     ]);
 </script>

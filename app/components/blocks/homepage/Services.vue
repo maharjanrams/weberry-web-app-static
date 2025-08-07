@@ -3,7 +3,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Section Header -->
             <div class="text-center mb-12">
-                <h2 class="text-6xl font-extrabold text-purple-berry mb-2 tracking-tight">
+                <h2 class="text-6xl font-extrabold text-berry mb-2 tracking-tight">
                     OUR EXPERTISE
                 </h2>
                 <p class="text-xl font-semibold text-gray-700 mb-8">
@@ -22,7 +22,7 @@
                     class="flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                     <div class="mb-6">
                         <!-- Icon for Web Design - Replaced with nuxt-icon -->
-                        <Icon name="heroicons:computer-desktop" class="w-16 h-16 text-berry" />
+                        <Icon name="heroicons:computer-desktop" class="w-16 h-16 text-purple-berry" />
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">STRATEGIC WEB DESIGN</h3>
                     <p class="text-gray-600 mb-6 leading-relaxed">
@@ -44,7 +44,7 @@
                     class="flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                     <div class="mb-6">
                         <!-- Icon for Web Management - Replaced with nuxt-icon -->
-                        <Icon name="heroicons:cog-8-tooth" class="w-16 h-16 text-berry" />
+                        <Icon name="heroicons:cog-8-tooth" class="w-16 h-16 text-purple-berry" />
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">COMPREHENSIVE WEB MANAGEMENT</h3>
                     <p class="text-gray-600 mb-6 leading-relaxed">
@@ -66,7 +66,7 @@
                     class="flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                     <div class="mb-6">
                         <!-- Icon for Digital Marketing - Replaced with nuxt-icon -->
-                        <Icon name="heroicons:chart-bar" class="w-16 h-16 text-berry" />
+                        <Icon name="heroicons:chart-bar" class="w-16 h-16 text-purple-berry" />
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">PERFORMANCE DIGITAL MARKETING</h3>
                     <p class="text-gray-600 mb-6 leading-relaxed">
@@ -86,7 +86,7 @@
             <!-- Discover More Button -->
             <div class="flex justify-center text-center mt-16">
                 <button
-                    class="mt-8 px-6 py-3 bg-gray-700 text-white font-semibold rounded-full hover:bg-berry hover:text-white transition-colors duration-300 flex items-center gap-2">
+                    class="mt-8 px-6 py-5 bg-gray-700 text-white font-semibold rounded-full hover:bg-berry hover:text-white transition-colors duration-300 flex items-center gap-2">
                     Explore Our Full Range of Services
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 						<path fill-rule="evenodd"

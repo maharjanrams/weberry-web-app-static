@@ -2,7 +2,7 @@
 	<section class="w-full flex justify-center p-8 md:p-16">
 		<div class="max-w-7xl flex flex-col md:flex-row items-center md:items-start gap-8">
 			<div class="w-full md:w-1/2 max-w-3xl mx-auto md:mx-0">
-				<h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-purple-berry mb-6 sm:mb-8">
+				<h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-berry mb-6 sm:mb-8">
 					OUR PASSION AND PURPOSE
 				</h1>
 				<p class="text-lg text-gray-700 mb-4 leading-relaxed">
@@ -20,7 +20,7 @@
 					customers happy.
 				</p>
 				<button
-					class="mt-8 px-6 py-3 bg-gray-700 text-white font-semibold rounded-full hover:bg-berry hover:text-white transition-colors duration-300 flex items-center gap-2">
+					class="mt-8 px-6 py-5 bg-gray-700 text-white font-semibold rounded-full hover:bg-berry hover:text-white transition-colors duration-300 flex items-center gap-2">
 					<span>Boost My Online Presence</span>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 						<path fill-rule="evenodd"

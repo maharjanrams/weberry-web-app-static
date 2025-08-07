@@ -1,8 +1,8 @@
 <template>
-    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-purple-berry rounded-xl shadow-md m-4">
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-dark-bg-header rounded-xl shadow-md m-4">
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
             <!-- Left Section: Heading and Contact Info -->
-            <div>
+            <div class="text-white">
                 <h2 class="text-7xl font-bold mb-2">
                     READY TO CONNECT<span>?</span>
                 </h2>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="text-right">
                         <button type="submit"
-                            class="px-10 py-4 bg-gray-700 text-white font-semibold rounded-full shadow-lg hover:bg-berry transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-white/50">
+                            class="px-10 py-4 bg-purple-berry text-white font-semibold rounded-full shadow-lg hover:bg-berry transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-white/50">
                             Submit
                         </button>
                     </div>

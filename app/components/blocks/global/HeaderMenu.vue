@@ -22,7 +22,7 @@ const currentTrigger = ref('')
         <div class="bg-dark-bg-header rounded-full p-2 flex items-center justify-between shadow-lg max-w-7xl w-full">
             <!-- Logo Section -->
             <div class="flex items-center space-x-2 pl-4">
-                <span class="text-white text-2xl font-bold">we<strong class="underline">B</strong>erry</span>
+                <span class="text-white text-2xl font-bold">we<strong class="underline text-berry">B</strong>erry</span>
                 <NuxtImg src="/cherries-icon.svg" class="w-6 h-auto" />
             </div>
 
