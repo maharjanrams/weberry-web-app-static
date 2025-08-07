@@ -135,7 +135,7 @@ const currentTrigger = ref('')
                                                 alt="weBerry Maps"
                                             />
                                             <div class="mt-4 mb-[7px] text-[18px] font-medium leading-[1.2] text-white">Our offices</div>
-                                            <p class="text-mauve-4 text-[14px] leading-[1.3]">We are based on Western Sydney.</p>
+                                            <p class="text-mauve-4 text-[14px] leading-[1.3]">We are based in Western Sydney.</p>
                                         </a>
                                     </NavigationMenuLink>
                                 </li>
